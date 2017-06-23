@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="bundle">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/api/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/api/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/console/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/console/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/persist/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/persist/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service/src/test/java"/>
+        <property name="context-root" value="bundle"/>
+        <property name="java-output-path" value="/bundle/bin"/>
+    </wb-module>
+</project-modules>
